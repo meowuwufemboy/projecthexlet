@@ -977,3 +977,559 @@ footer {
 }
 
 
+
+
+
+
+@media (max-width: 480px) {
+    header {
+        height: 60px;
+    }
+
+    .headerblock h1 {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .navigbutton {
+        height: 24px;
+        width: 70px;
+        margin: 0px 3px;
+        font-size: 11px;
+    }
+
+    .banner {
+        margin: 20px 10px;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    .info {
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .osnov {
+        width: 100%;
+        height: auto;
+    }
+
+    .osnovtext {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .osnovtext h2 {
+        font-size: 18px;
+    }
+
+    .themes {
+        width: 100%;
+        height: auto;
+    }
+
+    .themecard {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin: 0 0 20px 0;
+        padding: 10px 0;
+    }
+
+    .themeimg {
+        width: 100%;
+        height: auto;
+        max-height: 180px;
+        margin: 0;
+        object-fit: cover;
+    }
+
+    .themecard h3,
+    .themecard p,
+    .themecard h5 {
+        position: static;
+        margin: 8px 0;
+        width: 100%;
+    }
+
+    .discussions {
+        position: static;
+        margin: 20px 0;
+        width: 100%;
+        gap: 20px;
+        height: auto;
+    }
+
+    .discussiontheme {
+        width: 100%;
+    }
+
+    .discimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .disctitle {
+        width: 100%;
+        height: auto;
+    }
+
+    .discavatar {
+        position: relative;
+        margin: 10px 0;
+    }
+
+    .disctitle p,
+    .disctitle h4,
+    .disctitle h5 {
+        position: static;
+        margin: 8px 10px;
+    }
+
+    .toprating {
+        height: auto;
+    }
+
+    .topratingall {
+        flex-direction: column;
+        margin: 0 10px;
+        align-items: center;
+    }
+
+    .topratingcards {
+        width: 95%;
+        max-width: 300px;
+        margin: 15px 0;
+    }
+
+    .topratingcards img {
+        margin: 20px 0 0 20px;
+    }
+
+    .topratingcards h4:nth-child(2),
+    .topratingcards h4:nth-child(3),
+    .topratingcards h4:nth-child(5),
+    .topratingcards p:nth-child(4),
+    .topratingcards p:nth-child(6),
+    .topratingcards h3:nth-child(7) {
+        margin: 10px 0 0 140px;
+    }
+
+    .allrating {
+        margin: 50px 0 0 0;
+    }
+
+    .allratingblock {
+        width: 95%;
+        height: auto;
+        overflow-x: auto;
+    }
+
+    .allratingline {
+        width: 100%;
+        min-width: 600px;
+    }
+
+    .allratingicon {
+        flex-wrap: wrap;
+        margin: 0;
+        height: auto;
+        min-width: 600px;
+    }
+
+    .allratingicon::before {
+        display: none;
+    }
+
+    .allratingicon p::before {
+        left: 0;
+        width: 40px;
+    }
+
+    .reviews {
+        grid-template-columns: 1fr;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .premium-wrapper {
+        padding: 20px 10px;
+    }
+
+    .premium-card {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .premium-card h2 {
+        font-size: 26px;
+    }
+
+    .price {
+        font-size: 36px;
+    }
+
+    footer {
+        margin: 50px 0 0 0;
+    }
+
+    .footerlink {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerlink h1 {
+        margin: 15px 0;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .footerlink img {
+        position: static;
+        margin: 10px 5px;
+    }
+
+    .footerpash img {
+        position: static;
+        margin: 20px auto;
+        display: block;
+        width: 120px;
+        height: 120px;
+    }
+
+    .footerinfo p {
+        margin: 10px 15px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    header {
+          top: 0;
+    position: sticky;
+    margin: 0px 0px 0px 0px;
+    height: 80px;
+    width: 100%;
+     background-color: #2f0542;
+    z-index: 999;
+    }
+    .headerblock {
+         display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .headerblock h1 {
+        font-size: 20px;
+    }
+
+    .navigbutton {
+        width: 85px;
+        height: 28px;
+    }
+
+    .banner {
+        margin: 30px 20px;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+        max-height: 350px;
+        object-fit: cover;
+    }
+
+    .info {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .osnov {
+        width: 100%;
+        height: auto;
+    }
+
+    .osnovtext {
+        flex-direction: column;
+        margin: 15px 0;
+    }
+
+    .themes {
+        width: 100%;
+        height: auto;
+    }
+
+    .themecard {
+        width: 100%;
+        height: auto;
+        margin: 0 0 25px 0;
+    }
+
+    .themeimg {
+        width: 180px;
+        height: 100px;
+        margin: 10px 0;
+    }
+
+    .themecard h3 {
+        position: static;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .themecard p {
+        position: static;
+        margin: 10px 0;
+    }
+
+    .themecard h5 {
+        position: static;
+        margin: 10px 0;
+    }
+
+    .discussions {
+        position: static;
+        margin: 30px auto;
+        width: 90%;
+        gap: 30px;
+        height: auto;
+    }
+
+    .discussiontheme {
+        width: 100%;
+    }
+
+    .discimg {
+        width: 100%;
+    }
+
+    .disctitle {
+        width: 100%;
+    }
+
+    .topratingall {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 20px;
+        gap: 20px;
+    }
+
+    .topratingcards {
+        margin: 20px 0;
+    }
+
+    .allratingblock {
+        width: 95%;
+        overflow-x: auto;
+    }
+
+    .allratingline {
+        min-width: 700px;
+    }
+
+    .allratingicon {
+        min-width: 700px;
+    }
+
+    .reviews {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+    .premium-card {
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .footerlink {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footerlink h1 {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .footerlink img {
+        position: static;
+        margin: 15px 8px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .footerpash img {
+        position: static;
+        margin: 30px auto;
+        display: block;
+
+    }
+
+    .footerinfo p {
+        text-align: center;
+        margin: 20px 30px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .banner {
+        margin: 40px 30px;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+        max-height: 450px;
+    }
+
+    .info {
+        width: 85%;
+        height: auto;
+    }
+
+    .osnov {
+        width: 100%;
+    }
+
+    .themes {
+        width: 100%;
+    }
+
+    .themecard {
+        width: 90%;
+    }
+
+    .discussions {
+        position: static;
+        margin: 30px auto;
+        width: 80%;
+    }
+
+    .topratingall {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 50px;
+        gap: 30px;
+    }
+
+    .allratingblock {
+        width: 90%;
+    }
+
+    .allratingline {
+        width: 100%;
+    }
+
+    .allratingicon {
+        margin: 0;
+    }
+
+    .reviews {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .footerlink img {
+        margin: 60px 5px 0 5px;
+    }
+
+    .footerpash img {
+        margin: -150px 0 0 auto;
+        right: 50px;
+        position: relative;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .banner {
+        margin: 50px auto;
+        max-width: 1400px;
+        padding: 0 20px;
+    }
+
+    .banner img {
+        width: 100%;
+        max-width: 1400px;
+        height: auto;
+    }
+
+    .info {
+        max-width: 1400px;
+    }
+
+    .topratingall {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    .allratingblock {
+        max-width: 1500px;
+    }
+
+    .reviews {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    .footerlink {
+        max-width: 1600px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+     .footerblock {
+        height: ;
+        width: 1400px;
+    }
+
+    .footerpash img {
+        left: 100;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .banner {
+        margin: 50px auto;
+    }
+
+    .banner img {
+        max-width: 1600px;
+    }
+
+    .info {
+        max-width: 1600px;
+    }
+
+    .topratingall {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 0 100px;
+    }
+
+    .allratingblock {
+        max-width: 1600px;
+    }
+
+    .reviews {
+        max-width: 1800px;
+    }
+
+    .footer {
+        width: auto;
+    }
+}
